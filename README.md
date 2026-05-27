@@ -6,7 +6,7 @@ Bài lab tìm hiểu và sử dụng **Postman** để kiểm thử API. Postman
 
 ## 1. Giới thiệu
 
-Trong bài lab này, bạn sẽ làm quen với Postman — công cụ phổ biến khi phát triển và kiểm thử các hệ thống dùng REST API.
+Trong bài lab này sẽ giúp ta làm quen với Postman — công cụ phổ biến khi phát triển và kiểm thử các hệ thống dùng REST API.
 
 ## 2. Mục tiêu
 
@@ -68,6 +68,7 @@ POST https://jsonplaceholder.typicode.com/posts
 }
 ```
 
+| | |
 | --- | --- |
 | **Mục đích** | Gửi dữ liệu lên server để tạo bài viết mới |
 | **Kết quả** | Server trả về bài viết vừa tạo kèm `id` |
@@ -89,7 +90,8 @@ PUT https://jsonplaceholder.typicode.com/posts/1
 }
 ```
 
-|  |  |
+| | |
+| --- | --- |
 | **Mục đích** | Cập nhật bài viết có `id = 1` |
 | **Kết quả** | Server trả về dữ liệu sau khi cập nhật |
 
